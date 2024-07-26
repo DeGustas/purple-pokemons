@@ -1,0 +1,92 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: url(646950.jpeg) rgba(0, 0, 0, 0.3) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.backdrop {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+    z-index: -1;
+}
+
+h1 {
+    text-align: center;
+    font-size: 7em;
+    margin-bottom: 10px;
+    color: rgb(76, 10, 138);
+    margin-top: 0px;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.39);
+}
+
+section {
+    display: block;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 500px;
+    height: 750px;
+    border-radius: 5px;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+}
+
+#divText {
+    margin-top: 10px;
+}
+
+#pok {
+    display: block;
+    margin: auto;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.445);
+}
+
+#bot {
+    margin-top: 30px;
+}
+
+#botaoSupreme {
+    background-color: rgb(165, 93, 165);
+    display: block;
+    margin: auto;
+    padding: 20px 70px 20px 70px;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.438);
+}
+
+#botaoSupreme:hover {
+    background-color: violet;
+}
+
+#resposta {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.493);
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#imgElemento {
+    width: 300px;
+    height: 300px;
+}
+
